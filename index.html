@@ -7,6 +7,10 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
   <link rel="stylesheet" href="style.css">
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+/>
 </head>
 <body>
 
@@ -28,21 +32,21 @@
           <ul class="navbar-nav justify-content-sm-center flex-grow-1 pe-3 gap-5">
 
             <li class="nav-item" >
-              <a class="nav-link active " aria-current="page" href="index.html">HOME</a>
+              <a class="nav-link active " aria-current="page" href="#">HOME</a>
             </li><li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="about.html">ABOUT</a>
+              <a class="nav-link active" aria-current="page" href="#">ABOUT</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="education.html">EDUCATION</a>
+              <a class="nav-link active" aria-current="page" href="#">EDUCATION</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="skills.html">SKILLS</a>
+              <a class="nav-link active" aria-current="page" href="#">SKILLS</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="projects.html">PROJECTS</a>
+              <a class="nav-link active" aria-current="page" href="#">PROJECTS</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="contact.html">CONTACT</a>
+              <a class="nav-link active" aria-current="page" href="#">CONTACT</a>
             </li>
               </ul>
             </li>
@@ -55,18 +59,22 @@
 
  <!-- end header for all pages -->
 
- <div class="d-flex" style=" width: 100%; height: 100vh;  background: linear-gradient(to bottom right, #1c92c2, #a8e6cf, #f2fcfe);">
+ <div class="d-flex" style=" width: 100%; height: 100vh; ">
 
 
     <img style="width: 300px; margin-top: 130px; margin-left: 50px; height: 300px;" src="./Images/logo/hi gif.gif" alt="">
 
-
+<img style="position: absolute; right: 100px; top:150px; width: 400px;" src="./Animation - 1741968760574.gif" alt="">
 
     <div style="margin-top: 297px; margin-left: -45px; ;">
-        <h1 style="font-size: 65px">I'm Kailash Kumar!</h1>
-        <h5 style="font-size: 35px">I create digital experiences from front to back.</h5>
-        <p style="font-size: 25px">You've stumbled upon my little heaven on the web;
-           <br> Welcome, and feel at home!</p>
+      <h1 id="myname" style="font-size: 65px; font-family: 'Pacifico', cursive;">I'm Kailash Kumar!</h1>
+
+        <h5 style="font-size: 35px  ">I create digital experiences from front to back.</h5>
+        <p style="font-size: 25px; font-family: 'Exo 2', sans-serif;">
+          You've stumbled upon my little heaven on the web;
+          <br> Welcome, and feel at home!
+      </p>
+      
 
 
 
@@ -86,7 +94,7 @@
 
  </div>
 
- <h2>Things I Do</h2>
+ <h2 style="margin-left: 50px; font-size: 45px;">My Services</h2>
 <div style="display: flex; justify-content: space-around; padding: 50px 0px;">
     
     <div class="book">
@@ -95,8 +103,12 @@
             <!-- Front Content --> <h1 style="color: black;"><img width="200px" src="./Images/logo/aiml.png" alt=""></h1>
         </div>
         <div class="content">
-            <!-- Back Content --> <p><h4>AI&ML</h4>"Building intelligent systems for data-driven decisions and automated solutions."</p>
-        </div>
+          <h4 style="color: black; padding-bottom: 20px;">AI & ML</h4>
+          <p style="margin-left: 23px;">
+              Building intelligent systems for data-driven decisions and automated solutions.
+          </p>
+      </div>
+      
     </div>
 
 
@@ -106,8 +118,11 @@
              <h1 style="color: black;"><img width="350px" src="./Images/logo/UI&UX.png" alt=""></h1>
         </div>
         <div class="content">
-            <!-- Back Content --> <p><h4>UI&UX Design</h4>"Creating user-friendly, visually appealing, and intuitive digital experiences."</p>
-        </div>
+          <h4 style="color: black; padding-bottom: 20px;">UI & UX Design</h4>
+          <p style="margin-left: 23px;">
+            Creating user-friendly, visually appealing, and intuitive digital experiences.
+          </p>
+      </div>
     </div>
 
 
@@ -116,8 +131,11 @@
             <!-- Front Content --> <h1 style="color: black;"><img width="250px" src="./Images/logo/backend.png" alt=""></h1>
         </div>
         <div class="content">
-            <!-- Back Content --> <p><h4>backend Devloper</h4>"Developing secure, efficient server-side logic, databases, and APIs."</p>
-        </div>
+          <h4 style="color: black; padding-bottom: 20px;">Backend Devloper</h4>
+          <p style="margin-left: 25px;">
+            Developing secure, efficient server side logic, databases, and APIs.
+          </p>
+      </div>
     </div>
 
 </div>
@@ -192,10 +210,26 @@
         <p class="ms-4 me-4">Demonstrating my dedication to excellence, I've embarked on a couple of internships, in which I've honed my capabilities in Web Development and Data Science. Additionally, I earned 2d region in a aggressive hackathon, showcasing my trouble-fixing abilities and revolutionary questioning. This achievement underscores my ability tosupply impactful results and collaborate efficiently in dynamic environments</p>
         
     
-       <!-- ADD EDUCATION HERE -->
-      <h3>Education</h3>
+       <!-- EDUCATION SECTION -->
+<h3 class="mt-4 ms-4">Education</h3>
 
-      <p>🎓 B.Tech in Artificial Intelligence & Machine Learning – [Your University Name]</p>
+<div class="education-details mt-4 ms-4">
+    <h4>Bachelor of Technology (B.Tech)</h4>
+    <p style="margin-left: 50px;"><strong>Specialization:</strong> Artificial Intelligence & Machine Learning</p>
+    <p style="margin-left: 50px;"><strong>University:</strong> Jawaharlal Nehru Technological University, Hyderabad (JNTUH)</p>
+    <p  style="margin-left: 50px;" ><strong>Year of Completion:</strong> 2024</p>
+   
+    
+    <h4>Key Subjects:</h4>
+    <p style="margin-left: 50px;">Machine Learning, Deep Learning, Data Science, Computer Vision, Natural Language Processing</p>
+
+    
+
+    <h4>Achievements:</h4>
+    <ul>
+        <li style="margin-left: 50px;"><strong>Hackathon Winner:</strong> Secured 2nd place in a Web Development Hackathon.</li>
+    </ul>
+</div>
 
       
     </div>
@@ -206,20 +240,50 @@
 </div>
 
  
-<div class="about-section">
-    <div class="box">
-        <span style="--i: 1"><img src="./Walpapers/bird-7081904.jpg" alt=""></span>
-        <span style="--i: 2"><img src="./Walpapers/horse-8008038.jpg" alt=""></span>
-        <span style="--i: 3"><img src="./Walpapers/horse-8008038.jpg" alt=""></span>
-        <span style="--i: 4"><img src="./Walpapers/old-rusty-fishing-boat-slope-along-shore-lake.jpg" alt=""></span>
-        <span style="--i: 5"><img src="Images/header.jpg" alt=""></span>
-        <span style="--i: 6"><img src="Images/car1.jpg" alt=""></span>
-        <span style="--i: 7"><img src="Images/car2.jpg" alt=""></span>
-        <span style="--i: 8"><img src="Images/car4.jpg" alt=""></span>
+<h4 style="margin-top: 50px; font-size: 30px; margin-left: 50px;">Skills</h4>
+
+<span style="display: flex; justify-content: space-around; padding: 50px;">
+  <div class="card">
+    <div class="front_side">
+      <div> <img  src="./Images/img/image-removebg-preview.png" alt=""> <br> Web Technologies</div>
+    </div> 
+  <div class="back_side">
+    <div>  <br> HTML <br> CSS <br>Java Script </div>
+  </div>
+  </div>
+
+
+
+  <div class="card">
+    <div class="front_side">
+      <div>Database & Backend</div>
+      </div> 
+    <div class="back_side">
+      <div><img width="200px" src="https://cdn-icons-png.freepik.com/512/11676/11676379.png" alt="Database & Backend"></div>
     </div>
-</div>
+  </div>
+  
 
 
+  <div class="card">
+    <div class="front_side">
+      <div>Programming Languages</div>
+    </div> 
+  <div class="back_side">
+    <div>Python <br> C#</div>
+  </div>
+  </div>
+
+
+  <div class="card">
+    <div class="front_side">
+      <div>Machine Learning & AI</div>
+    </div> 
+  <div class="back_side">
+    <div>Tensor-flow <br> Pandas</div>
+  </div>
+  </div>
+</span>
 
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
